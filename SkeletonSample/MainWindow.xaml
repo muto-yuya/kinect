@@ -5,8 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SkeletonSample"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="521" Width="663">
     <Grid>
-        
+        <Image HorizontalAlignment="Left" Name="imageRgbCamera" Stretch="Fill" VerticalAlignment="Top" />
+        <Image HorizontalAlignment="Left" Name="imageDepthCamera" Stretch="Fill" VerticalAlignment="Top" Opacity="0.7" />
+        <Canvas HorizontalAlignment="Left" Name="canvasSkeleton" VerticalAlignment="Top" />
+        <Label x:Name="positionLabel" Content="Label" HorizontalAlignment="Left" Margin="62,39,0,0" VerticalAlignment="Top" Height="44" Width="167" FontSize="24"/>
+        <Label x:Name="positionLabel2" Content="Label" HorizontalAlignment="Left" Margin="261,39,0,0" VerticalAlignment="Top" Height="44" Width="186" FontSize="24"/>
+        <Label x:Name="positionLabel3" Content="Label" HorizontalAlignment="Left" Margin="452,39,0,0" VerticalAlignment="Top" Height="44" Width="160" FontSize="24"/>
+        <Label x:Name="actionCountLabel" Content="Label" HorizontalAlignment="Left" Margin="62,117,0,0" VerticalAlignment="Top" Height="36" Width="167" FontSize="24" Foreground="#FFE71515"/>
     </Grid>
 </Window>
